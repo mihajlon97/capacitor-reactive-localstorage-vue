@@ -1,33 +1,30 @@
 {
-  "name": "vue-reactive-localstorage",
-  "version": "1.4.4",
-  "description": "Reactive layer used to interact with localStorage for Vue 2",
+  "name": "capacitor-reactive-localstorage-vue",
+  "version": "1.0.1",
+  "description": "Reactive layer used to interact with localStorage for Vue 2 in Capacitor.js project",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test",
     "build": "npm run lint && webpack --config webpack.config.js",
     "lint": "eslint src/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HAlex/vue-reactive-localstorage.git"
+    "url": "git+https://github.com/mihajlon97/capacitor-reactive-localstorage-vue.git"
   },
   "keywords": [
     "vue",
     "plugin",
     "localstorage",
-    "vue2"
+    "vue2",
+    "capacitor",
+    "capacitorjs"
   ],
-  "author": "halextm",
-  "contributors": [
-    "rop <ropbla9@gmail.com> (https://github.com/ropbla9)",
-    "Vinicius Reis <luiz.vinicius73@gmail.com> (https://github.com/vinicius73)"
-  ],
+  "author": "mihajlon97",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HAlex/vue-reactive-localstorage/issues"
+    "url": "https://github.com/mihajlon97/capacitor-reactive-localstorage-vue/issues"
   },
-  "homepage": "https://github.com/HAlex/vue-reactive-localstorage#readme",
+  "homepage": "https://github.com/mihajlon97/capacitor-reactive-localstorage-vue#readme",
   "devDependencies": {
     "buble": "^0.15.2",
     "buble-loader": "^0.4.1",

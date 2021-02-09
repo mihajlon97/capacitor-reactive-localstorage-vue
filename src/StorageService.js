@@ -1,4 +1,4 @@
-import { Plugins } from '@capacitor/core';
+import { Plugins } from "@capacitor/core";
 const { Storage } = Plugins;
 
 export default {
@@ -20,7 +20,7 @@ export default {
 
     async getItem(key) {
         const { value } = await Storage.get({ key });
-        return value
+        return value;
     },
 
     async removeItem(key) {
@@ -29,10 +29,10 @@ export default {
 
     async keys() {
         const { keys } = await Storage.keys();
-        return keys
+        return keys;
     },
 
     async clear() {
         return await Storage.clear();
-    },
-}
+    }
+};
