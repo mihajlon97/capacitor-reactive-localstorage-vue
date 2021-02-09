@@ -36,5 +36,8 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^2.0.1",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "@capacitor/core": "^2.4.6"
   }
 }
